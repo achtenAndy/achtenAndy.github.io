@@ -1,0 +1,19 @@
+body {
+        width: 500px;
+        clear: both;
+    background-color: coral;
+    }
+body input {
+        width: 100%;
+        clear: both;
+    }
+button {
+    margin-top: 10px;
+}
+.submit {
+    background-color: crimson;
+    color:white;
+}
+textarea {
+    margin-top: 10px;
+}
