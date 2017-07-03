@@ -1,7 +1,11 @@
 body {
         width: 500px;
         clear: both;
-    background-color: coral;
+    background-color: darkgoldenrod;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
     }
 body input {
         width: 100%;
