@@ -3,52 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
-<!--
-    <form action="">
-        <label for="text">wpisz tekst:</label>
-        <input type="text" name="text" placeholder="wpisz tutaj tekst"><br/>
-        
-        <label for="number">wpisz liczbe</label>
-        <input type="number" name="" placeholder="numery">
-         <br/>
-        
-        <label for="password">wpisz haslo</label>
-        <input type="password"><br/>
-        
-        
-        <label for="textarea">przeslij wiadomosc</label>
-        <textarea name="" id="" cols="30" rows="10" maxlength="1"></textarea> <br/>
-        
-        <select name="" id="">
-            <option value="Opcja 1">Opcja 1</option>
-            <option value="Opcja 2">Opcja 2</option>
-            <option value="Opcja 3">Opcja 3</option>
-        </select>
-        <br/>
-        <button type="button">Prześlij</button>
-    </form>
--->
+
 
 <form action="https://formspree.io/edi779@gmail.com" method="POST">
 
-    <label for="text">Imię</label>
-    <input type="text" name="name">
+    <label for="imie">Imię:</label><br/>
+    <input id="imie" class="input" type="text" name="name"><br/>
 
-    <label for="text">Nazwisko</label>
-    <input type="text" name="name">
+    <label for="nazwisko">Nazwisko:</label><br/>
+    <input id="nazwisko" class="input" type="text" name="name"><br/>
     
-    <label for="text">Email</label>
-    <input type="email" name="_replyto">
+    <label for="email">E-mail:</label><br/>
+    <input id="email" class="input" type="email" name="_replyto"><br/>
 
-    <label for="number">Numer telefonu</label>
-    <input type="number">
+    <label for="number">Numer telefonu:</label><br/>
+    <input id="number" class="input" type="number"><br/>
+    <p>Wybierz miasto:</p>
     
-    <label class="textarea" for="textarea">Wiadomość</label>
-    <textarea name="" id="" cols="30" rows="10" maxlength="100"></textarea>
+    <select name="options" id="opcje">
+        <option value="value1">Krakow</option>
+        <option value="value2">Warszawa</option>
+        <option value="value3">Gdańsk</option>
+    </select><br/>
     
+    
+    <p>Wybierz płeć:</p><br/>
+    <input id="mezczyzna" class="radio" type="radio" name="radAnswer">
+    <label for="mezczyzna">Mężczyzna</label><br/>
+    <input id="kobieta" class="radio" type="radio" name="radAnswer">
+    <label for="kobieta">Kobieta</label><br/>
+    
+    <br/>
+    
+    
+    <label class="textarea" for="area">Wiadomość:</label><br/>
+    <textarea name="textarea" id="area" cols="30" rows="10" maxlength="100"></textarea><br/>
+    
+    
+    <input id="zgoda" type="checkbox">
+    <label for="zgoda">Zgoda na dane osobowe...</label><br/>
+    
+    
+    <br/>
     <input class="submit" type="submit" value="Send">
 
 
